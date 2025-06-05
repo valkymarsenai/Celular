@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loja de Celulares</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/flowbite@2.3.0/dist/flowbite.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+
+  <div class="max-w-7xl mx-auto">
+    <h1 class="loja-titulo mb-4">📱 Celulares Disponíveis</h1>
+    <p class="mb-6 text-center text-gray-600">⏳ Atualizando em <span id="timer" class="font-semibold text-blue-600">30</span> segundos</p>
+
+    <div id="celulares" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
+  </div>
+
+  <script src="https://unpkg.com/flowbite@2.3.0/dist/flowbite.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
